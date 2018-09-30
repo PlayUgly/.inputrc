@@ -1,0 +1,1 @@
+My .inputrc file
