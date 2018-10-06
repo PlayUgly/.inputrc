@@ -3,7 +3,7 @@
 $include /etc/inputrc
 
 set editing-mode vi
-#set show-mode-in-prompt on
+set show-mode-in-prompt on
 
 #Set cursor for insert and command modes
 #$if term-linux
