@@ -1,9 +1,9 @@
 #All of this from Arch Linux Readline wiki
 
-#$include /etc/inputrc
+$include /etc/inputrc
 
-#set editing-mode vi
-#set show-mode-in-prompt on
+set editing-mode vi
+set show-mode-in-prompt on
 
 #Set cursor for insert and command modes
 #$if term-linux
@@ -15,16 +15,16 @@
 #$endif
 
 #Enable navigating through command history with j and k
-#$if mode=vi
-#set keymap vi-command
+$if mode=vi
+set keymap vi-command
 # these are for vi-command mode
-#"\e[A": history-search-backward
-#"\e[B": history-search-forward
-#j: history-search-forward
-#k: history-search-backward
-#set keymap vi-insert
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+j: history-search-forward
+k: history-search-backward
+set keymap vi-insert
 # these are for vi-insert mode
-#"\e[A": history-search-backward
-#"\e[B": history-search-forward
-#$endif
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+$endif
 
